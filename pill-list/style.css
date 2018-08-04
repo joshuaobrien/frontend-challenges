@@ -1,0 +1,48 @@
+.pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.pill {
+    display: flex;
+    background-color: #eee;
+    color: #555;
+
+    overflow: hidden;
+    max-width: 300px;
+
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 3px;
+
+    user-select: none;
+
+    font-size: 13px;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.pill-delete {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.pill-delete:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+#pill-input {
+    border-style: none;
+    padding: 5px;
+    margin: 3px;
+}
+
+#pill-input:focus {
+    outline: none;
+}
